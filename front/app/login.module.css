@@ -1,0 +1,74 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    min-height: 150px;
+    gap: 10px;
+}
+
+.button {
+    display: block;
+    border: 1px solid dodgerblue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.form_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border: 2px solid cadetblue;
+    min-height: 300px;
+}
+
+.inputs_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.input_div {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.login_p {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.login_title {
+    text-align: center;
+}
+
+.test_button_list {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 10px;
+    gap: 5px;
+}
