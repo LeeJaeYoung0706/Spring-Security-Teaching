@@ -1,0 +1,26 @@
+
+server:
+  port: 8001
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    jdbc-url: jdbc:postgresql://localhost:5432/postgres
+    username: testuser
+    password: 1234
+  jwt:
+    header: Authorization
+    secret: ZXJzdFJlc3RBUElBcHBsaWNhdGlvbg==
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        default_batch_fetch_size: 400
+        use_sql_comments: true
+    open-in-view: false
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
